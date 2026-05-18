@@ -1,0 +1,131 @@
+body {
+    font-family: Arial,sans-serif;
+    background-color:#f2f2f2;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    padding: 10px;
+}
+nav ul li
+{display: inline;
+margin: 0 15px;}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {color:red;}
+table{margin: auto;
+border-collapse:collapse;
+}
+td { padding: 10px;}
+img{width: 200px;
+height: 150px;
+object-fit: cover;}
+
+header {
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 20px;
+    }
+
+    textarea {
+      width: 100%;
+      height: 150px;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      resize: none;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #c0392b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #a93226;
+    }
+
+    .reviews {
+      margin-top: 20px;
+    }
+
+    .review {
+      background: #ecf0f1;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+    h1 {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px black;
+}
+
+h2 {
+    color: #222;
+    margin-left: 20px;
+}
+
+/* Текст */
+p {
+    text-align: center;
+    font-size: 18px;
+    background: rgba(255,255,255,0.8);
+    padding: 15px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+/* Списък */
+ul {
+    background: white;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Видео */
+iframe {
+    display: block;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+}
